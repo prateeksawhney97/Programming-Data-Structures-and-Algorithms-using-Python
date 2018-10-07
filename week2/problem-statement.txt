@@ -7,7 +7,7 @@ For each function, there are some public test cases and some (hidden) private te
 Ignore warnings about "Presentation errors".
 
 
-Write a function intreverse(n) that takes as input a positive integer n and returns the integer obtained by reversing the digits in n.
+1). Write a function intreverse(n) that takes as input a positive integer n and returns the integer obtained by reversing the digits in n.
 
 Here are some examples of how your function should work.
 
@@ -17,7 +17,7 @@ Here are some examples of how your function should work.
   987242
   >>> intreverse(3)
   3
-Write a function matched(s) that takes as input a string s and checks if the brackets "(" and ")" in s are matched: that is, every "(" has a matching ")" after it and every ")" has a matching "(" before it. Your function should ignore all other symbols that appear in s. Your function should return True if s has matched brackets and False if it does not.
+2). Write a function matched(s) that takes as input a string s and checks if the brackets "(" and ")" in s are matched: that is, every "(" has a matching ")" after it and every ")" has a matching "(" before it. Your function should ignore all other symbols that appear in s. Your function should return True if s has matched brackets and False if it does not.
 
 Here are some examples to show how your function should work.
 
@@ -30,7 +30,7 @@ Here are some examples to show how your function should work.
   False
   >>> matched("((jkl)78(A)&l(8(dd(FJI:),):)?)")
   True
-Write a function sumprimes(l) that takes as input a list of integers l and retuns the sum of all the prime numbers in l.
+3). Write a function sumprimes(l) that takes as input a list of integers l and retuns the sum of all the prime numbers in l.
 
 Here are some examples to show how your function should work.
 
