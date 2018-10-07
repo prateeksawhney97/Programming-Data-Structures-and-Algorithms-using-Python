@@ -8,12 +8,15 @@ Ignore warnings about "Presentation errors".
 
 The academic office at the Hogwarts School of Witchcraft and Wizardry has compiled data about students' grades. The data is provided as text from standard input in three parts: information about courses, information about students and information about grades. Each part has a specific line format, described below..
 
-Information about courses
+1). Information about courses
 Line format: Course Code~Course Name~Semester~Year~Instructor
-Information about students
+
+2). Information about students
 Line format: Roll Number~Full Name
-Information about grades
+
+3). Information about grades
 Line format: Course Code~Semester~Year~Roll Number~Grade
+
 The possible grades are A, AB, B, BC, C, CD, D with corresponding grade points 10, 9, 8, 7, 6, 5 and 4. The grade point average of a student is the sum of his/her grade points divided by the number of courses. For instance, if a student has taken two courses with grades A and C, the grade point average is 8 = (10+6)÷2. If a student has not completed any courses, the grade point average is defined to be 0.
 
 You may assume that the data is internally consistent. For every grade, there is a corresponding course code and roll number in the input data.
