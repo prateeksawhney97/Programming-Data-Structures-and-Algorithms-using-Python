@@ -40,3 +40,86 @@ Here are some examples to show how your function should work.
   13
   >>> sumprimes([-3,1,6])
   0
+  
+  
+Sample Test Cases
+Input	
+Output
+
+Test Case 1	
+intreverse(368)
+863
+
+Test Case 2	
+intreverse(798798)
+897897
+
+Test Case 3	
+intreverse(7)
+7
+
+Test Case 4	
+matched("(7)(a")
+False
+
+Test Case 5	
+matched("a)*(?")
+False
+
+Test Case 6	
+matched("((jkl)78(A)&l(8(dd(FJI:),):)?)")
+True
+
+Test Case 7	
+sumprimes([17,51,29,39])
+46
+
+Test Case 8	
+sumprimes([-3,-5,3,5])
+8
+
+Test Case 9	
+sumprimes([4,6,15,27])
+0
+
+Test Case 10	
+intreverse(31511)
+11513
+
+Test Case 11	
+intreverse(4)
+4
+
+Test Case 12	
+intreverse(15135324234235)
+53243242353151
+
+Test Case 13	
+matched("a3qw3;4w3(aasdgsd)((agadsgdsgag)agaga)")
+True
+
+Test Case 14	
+matched("(ag(Gaga(agag)Gaga)GG)a)33)cc(")
+False
+
+Test Case 15	
+matched("(adsgdsg(agaga)a")
+False
+
+Test Case 16	
+matched("15ababa.agaga[][[[")
+True
+
+Test Case 17	
+sumprimes([101,93,97,44])
+198
+
+Test Case 18	
+sumprimes([1001,393,743,59])
+802
+
+Test Case 19	
+sumprimes([11,11,11,13,11,-11])
+57
+
+
