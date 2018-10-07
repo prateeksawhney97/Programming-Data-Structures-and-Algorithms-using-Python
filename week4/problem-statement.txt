@@ -9,7 +9,7 @@ Ignore warnings about "Presentation errors".
 
 
 
-We represent scores of batsmen across a sequence of matches in a two level dictionary as follows:
+1). We represent scores of batsmen across a sequence of matches in a two level dictionary as follows:
 
    {'match1':{'player1':57, 'player2':38}, 'match2':{'player3':9, 'player1':42}, 'match3':{'player2':41, 'player4':63, 'player3':91}
 Each match is identified by a string, as is each player. The scores are all integers. The names associated with the matches are not fixed (here they are 'match1','match2','match3'), nor are the names of the players. A player need not have a score recorded in all matches.
@@ -27,7 +27,7 @@ For instance:
 ('Kohli', 120)
 
 
-Let us consider polynomials in a single variable x with integer coefficients: for instance, 3x4 - 17x2 - 3x + 5. Each term of the polynomial can be represented as a pair of integers (coefficient,exponent). The polynomial itself is then a list of such pairs.
+2). Let us consider polynomials in a single variable x with integer coefficients: for instance, 3x4 - 17x2 - 3x + 5. Each term of the polynomial can be represented as a pair of integers (coefficient,exponent). The polynomial itself is then a list of such pairs.
 
 We have the following constraints to guarantee that each polynomial has a unique representation:
 
