@@ -28,5 +28,4 @@ Write a Python program to read the data as described above and print out a line 
 Roll Number~Full Name~Grade Point Average
 Your output should be sorted by Roll Number. The grade point average should be rounded off to 2 digits after the decimal point. Use the built-in function round().
 
-Here is a sample input and its corresponding output.
 
